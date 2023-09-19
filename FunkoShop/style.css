@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    margin: auto;
+    height: 768px;
+    width: 1360px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 5;
+    grid-template-areas: "header header header"
+                         "art1 art1 art1"
+                         "art2 art2 art2"
+                         "art3 art3 art3"
+                         "news news news"
+                         "footer footer footer";
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    grid-area: footer;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+    background-color: #30343f;
+    overflow: hidden;
+}
+
+.opciones{
+    list-style: none;
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.opciones{
+    font-size: 1rem;
+    gap: 10px 0;
+    margin-left: 50px;
+    margin-bottom: 90px;
+}
+
+.footer ul a[href]{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+    
+}
+.footpage{
+    font-size: 1.035rem;
+    text-align: center;
+    margin:10px 0
+    
+}
+
+.icon img{
+    max-width: 100%;
+    margin: 0 50px 70px 0;
+    height: auto;
+}
