@@ -1,4 +1,4 @@
-function submitForm() {
+function submitLogIn() {
     // Obtener los valores del formulario
     var usuario = document.getElementById("usuario").value;
     var contrasena = document.getElementById("contrasena").value;
@@ -15,4 +15,7 @@ function submitForm() {
 
 function forgotPassword() {
     alert("¡No te preocupes! Puedes restablecer tu contraseña.");
+}
+function redirigirRegistro(){
+    window.location.href = "/register/register.html"
 }
