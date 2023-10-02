@@ -63,12 +63,12 @@ body{
 .user{
     border-radius: 20px;
     grid-area: user;
-    height: 5vh;
+    height: 2vh;
     padding: 20px 0px;
 }
 .password{
     grid-area: password;
-    height: 5vh;
+    height: 2vh;
     padding: 20px 0px;
 }
 button {
