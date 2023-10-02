@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="icon">
+            <img src="src\images\logo_light_horizontal.svg" alt="isotype_light_horizontal.svg">
+            </div>
+        </header>
+
+
+
+        <section class="section">
+            <div class="formulario">
+                <h3>Iniciar sesion</h3>
+                <form id="loginForm">
+                    <div class="user">
+                        <input type="text" id="usuario" name="nombre" placeholder="USUARIO"/>
+                    </div>
+
+                    <div class="password">
+                        <input type="password" id="contrasena" name="contrasena" placeholder="CONTRASEÑA"/>
+                    </div>
+                    
+                    <div class="button">
+                        <button type="submit" onclick="submitForm()"> Ingresar </button>
+                    </div>
+                </form>
+                <a href="#" onclick="forgotPassword()">¿Olvidaste tu contraseña?</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+
+            <div class="icon">
+                <img src="src\images\isotype.svg" alt="isotype.svg">
+            </div>
+
+            <div class="footpage">
+                <a>All rights reserved - Funkoshop &copy;</a> 
+            </div>
+
+            
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</html>
